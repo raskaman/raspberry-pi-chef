@@ -11,12 +11,15 @@ sudo apt-get install rsync
 ```
 
 On the chef workstation
-update the node file nodes/10.11.101.220.json with the ip of your pi
+update the node file nodes/10.11.101.220.json with the ip of your pi,
+
 run
 ```
 gem install knife-solo
 knife configure -r . --defaults
-
+```
+To provision your pi, run
+```
 knife solo cook pi@[ip_of_your_pi]
 knife solo cook pi@10.11.101.220 # for example
 ```
