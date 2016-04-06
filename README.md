@@ -27,4 +27,7 @@ knife solo cook pi@10.11.101.220 # for example
 # references
 
 https://github.com/pedrocarrico/raspberrypi_cookbook
+
+http://blog.pedrocarrico.net/post/43311377881/why-should-we-cook-a-raspberry-pi-and-how
+
 https://matschaffer.github.io/knife-solo/
