@@ -1,7 +1,9 @@
 {
   "run_list": [
+  	"recipe[apt_update]",
   	"recipe[raspberry_config]",
-  	"recipe[motion]"
+  	"recipe[motion]",
+  	"recipe[streamer]"
   ],
   "automatic": {
     "ipaddress": "10.11.101.220"
