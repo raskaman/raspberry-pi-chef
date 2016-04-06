@@ -1,0 +1,9 @@
+{
+  "run_list": [
+  	"recipe[raspberry_config]",
+  	"recipe[motion]"
+  ],
+  "automatic": {
+    "ipaddress": "10.11.101.220"
+  }
+}
