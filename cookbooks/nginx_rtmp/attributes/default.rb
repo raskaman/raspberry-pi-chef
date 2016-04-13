@@ -1,0 +1,1 @@
+default['nginx_rmtp']['source']['url'] = "https://github.com/arut/nginx-rtmp-module"
