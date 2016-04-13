@@ -5,6 +5,6 @@
   	"recipe[ffmpeg]"
   ],
   "automatic": {
-    "ipaddress": "10.11.101.220"
+    "ipaddress": "192.168.0.119"
   }
 }
