@@ -2,7 +2,8 @@
   "run_list": [
   	"recipe[git]",
   	"recipe[raspberry_config]",
-  	"recipe[ffmpeg]"
+  	"recipe[ffmpeg]",
+  	"recipe[node-js]"
   ],
   "automatic": {
     "ipaddress": "192.168.0.119"
